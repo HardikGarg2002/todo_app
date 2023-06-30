@@ -1,0 +1,13 @@
+* In here i used two ways to show multiple elements
+
+    Multiple cards in app &
+    Multiple tasks in card
+
+    1. Multiple cards in app--> 
+    writting map function in parent directly --> map is iterated over list of cards maintained
+
+    2. Multiple tasks in card-->
+    writting map function in child --> by sending list of tasks to the child and map function is handled in the child only.
+
+* After addition i want to change the input area to be changed to default
+    In the element {input} just have the {value} attribute to newTask -->which is emptied("") on every submission(addition).
